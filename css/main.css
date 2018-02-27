@@ -1,0 +1,96 @@
+body {
+  font-family: "Lato", sans-serif; }
+
+.is-bold {
+  font-weight: bold; }
+
+.shop-button {
+  border-radius: 0;
+  background-color: #989898;
+  color: #fff;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-size: 22px;
+  margin-bottom: 35px;
+  padding: 5px 30px; }
+
+.btn.focus,
+.btn:focus,
+.btn:hover {
+  color: #fff;
+  text-decoration: none;
+  background-color: #757575; }
+
+.navbar-default {
+  background-color: #fff;
+  border: none; }
+
+.navbar-default .navbar-nav > li > a {
+  color: #000000;
+  letter-spacing: 0.1em;
+  padding: 5px 25px;
+  border: 2px solid #fff; }
+
+.navbar-default .navbar-nav > li > a:focus,
+.navbar-default .navbar-nav > li > a:hover {
+  color: #000000;
+  background-color: transparent;
+  font-weight: bold;
+  border: 2px solid #e8e8e8; }
+
+.navbar-right {
+  margin-right: 0; }
+
+.main-header {
+  padding: 70px 90px;
+  line-height: 1.5em; }
+
+.section-title {
+  text-transform: uppercase;
+  font-size: 45px; }
+
+.first-section .section-text {
+  font-family: "PT Sans", sans-serif; }
+
+.second-section .container {
+  background-color: #f6f8f0;
+  padding: 40px; }
+  .second-section .container .icon-container {
+    text-align: center;
+    margin-bottom: 40px; }
+  .second-section .container .section-text {
+    font-size: 19px;
+    line-height: 30px;
+    padding: 0 70px; }
+
+.pattern .pattern-img {
+  padding: 50px 30px; }
+
+.shop {
+  margin-bottom: 85px; }
+  .shop .container {
+    background: url("../img/tlo_sklep.jpg") no-repeat center center;
+    background-size: cover;
+    height: 462px;
+    padding: 40px; }
+
+.shop-grid .row {
+  margin-bottom: 70px; }
+
+.shop-grid .shop-grid-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #e8e8e8;
+  width: 484px;
+  margin: 0 auto; }
+  .shop-grid .shop-grid-content .shop-grid-title {
+    text-transform: uppercase;
+    margin: 46px 40px;
+    font-size: 40px; }
+  .shop-grid .shop-grid-content .pattern-img {
+    margin-bottom: 60px; }
+
+.shop-grid .photo-container {
+  text-align: center; }

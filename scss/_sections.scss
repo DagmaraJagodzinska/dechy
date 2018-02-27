@@ -1,0 +1,79 @@
+.main-header {
+    padding: 70px 90px;
+    line-height: 1.5em;
+} 
+        
+.section-title {
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.first-section {
+    .section-text {
+        font-family: $PtSans; 
+    }
+}
+
+.second-section {
+    .container {
+        background-color: #f6f8f0;
+        padding: 40px;
+
+        .icon-container {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .section-text {
+            font-size: 19px;
+            line-height: 30px;
+            padding: 0 70px;
+        }
+    }
+}
+
+.pattern {
+    .pattern-img {
+        padding: 50px 30px;
+    }
+}
+
+.shop {
+    margin-bottom: 85px;
+    .container {
+        background: url("../img/tlo_sklep.jpg")no-repeat center center; 
+        background-size: cover;
+        height: 462px;
+        padding: 40px;
+
+    }
+}
+
+.shop-grid {
+    .row {
+        margin-bottom: 70px;
+    }
+    .shop-grid-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 5px solid $light-grey;
+        width: 484px;
+        margin: 0 auto;
+
+        .shop-grid-title {
+            text-transform: uppercase;
+            margin: 46px 40px;
+            font-size: 40px;
+        }
+        .pattern-img {
+            margin-bottom: 60px;
+        }
+    }
+
+    .photo-container {
+        text-align: center;
+    }
+}
+
