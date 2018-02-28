@@ -7,6 +7,10 @@
     font-size: 22px;
     margin-bottom: 35px;
     padding: 5px 30px;
+    
+    @media screen and (max-width: $max-width-xs) {
+        font-size: 16px;
+    }
 }
 
 .btn.focus, 
