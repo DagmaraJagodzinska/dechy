@@ -99,20 +99,23 @@
             padding: 25px 50px 30px 50px;
         }
         @media screen and (max-width: $max-width-xs) {
-            padding: 25px 50px 30px 75px;
+            //padding: 25px 50px 30px 75px;
         }
 
         .icon-container {
             text-align: center;
             margin-bottom: 40px;
 
-            .first-section-img {
+            .second-section-img {
                 @media screen and (max-width: $max-width-sm) {
                     width: 60%;
                 }
                 @media screen and (max-width: $max-width-xs) {
                     width: 30%;
-                }                
+                }
+                @media screen and (max-width: $max-width-xxs) {
+                    width: 50%;
+                }
             }
         }
 
@@ -125,7 +128,7 @@
                 padding: 0 15px;
             }
             @media screen and (max-width: $max-width-xs) {
-                padding: 0 65px;
+                //padding: 0 65px;
                 margin-bottom: 30px;
             }
             @media screen and (max-width: $max-width-xxs) {
@@ -158,23 +161,27 @@
     }
 
     .container {
-        background: url("../img/tlo_sklep.jpg")no-repeat center center; 
+        background: url("../img/tlo_sklep.jpg")no-repeat center center;
         background-size: cover;
         height: 462px;
         padding: 40px;
 
         @media screen and (max-width: $max-width-sm) {
             height: 350px;
-            padding: 25px 75px 40px 220px;
-        }
-        @media screen and (max-width: $max-width-xs) {
-            padding: 30px 75px 40px 120px;
+            padding: 20px 34px 40px 120px;
+
         }
         @media screen and (max-width: 536px) {
-            padding: 5px 75px 40px 120px;
-        }        
+            padding: 20px 34px 40px 100px;
+
+        }
         @media screen and (max-width: $max-width-xxs) {
-            padding: 20px 34px 40px 65px;
+            height: 400px;
+            padding: 20px 34px 40px 34px;
+            .row {
+                margin-left: 0;
+                margin-right: 0;
+            }
         }
 
         .shop-container {
@@ -185,6 +192,7 @@
                 @media screen and (max-width: $max-width-sm) {
                     margin-bottom: 30px;
                 }
+
                 @media screen and (max-width: $max-width-xxs) {
                     padding-right: 0;
                 }
