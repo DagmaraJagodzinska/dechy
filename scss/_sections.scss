@@ -12,6 +12,10 @@
         line-height: 1.4em;
         font-size: 25px;
     }
+    @media screen and (max-width: $max-width-xxs) {
+        padding: 10px 20px 0 20px;
+        font-size: 22px;
+    }
 } 
         
 .section-title {
@@ -35,6 +39,12 @@
 
 }
 
+.hello-section {
+    @media screen and (max-width: $max-width-xs) {
+        padding: 15px 30px;
+    }
+}
+
 .first-section {
     .container {
         @media screen and (max-width: $max-width-xs) {
@@ -43,6 +53,12 @@
     }
     .section-text {
         font-family: $PtSans; 
+    }
+
+    .first-section-text {
+        @media screen and (max-width: $max-width-xs) {
+            padding: 15px 30px;
+        }
     }
 
     .first-section-img {
@@ -57,16 +73,16 @@
         }
     }
     .section-text {
-        padding: 57px 30px 0 30px;
+        padding: 57px 30px 0 90px;
 
-        @media screen and (max-width: $max-width-st) {
-            padding: 30px 30px 0 30px;
-        }
         @media screen and (max-width: $max-width-sm) {
-            padding: 15px 15px 20px 15px;
+            padding: 15px 15px 20px 30px;
         }
         @media screen and (max-width: $max-width-xs) {
-            padding: 15px 15px 10px 15px;
+            padding: 15px 30px 10px 30px;
+        }
+        @media screen and (max-width: $max-width-xxs) {
+            padding: 15px 20px 10px 20px;
         }
     }
 }
@@ -81,6 +97,9 @@
 
         @media screen and (max-width: $max-width-sm) {
             padding: 25px 50px 30px 50px;
+        }
+        @media screen and (max-width: $max-width-xs) {
+            padding: 25px 50px 30px 75px;
         }
 
         .icon-container {
@@ -104,6 +123,14 @@
             }
             @media screen and (max-width: $max-width-sm) {
                 padding: 0 15px;
+            }
+            @media screen and (max-width: $max-width-xs) {
+                padding: 0 65px;
+                margin-bottom: 30px;
+            }
+            @media screen and (max-width: $max-width-xxs) {
+                margin-bottom: 25px;
+                padding: 0;
             }
         }
 
@@ -141,7 +168,13 @@
             padding: 25px 75px 40px 220px;
         }
         @media screen and (max-width: $max-width-xs) {
+            padding: 30px 75px 40px 120px;
+        }
+        @media screen and (max-width: 536px) {
             padding: 5px 75px 40px 120px;
+        }        
+        @media screen and (max-width: $max-width-xxs) {
+            padding: 20px 34px 40px 65px;
         }
 
         .shop-container {
@@ -151,6 +184,9 @@
 
                 @media screen and (max-width: $max-width-sm) {
                     margin-bottom: 30px;
+                }
+                @media screen and (max-width: $max-width-xxs) {
+                    padding-right: 0;
                 }
             }
 

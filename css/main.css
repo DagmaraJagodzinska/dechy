@@ -39,6 +39,9 @@ body {
   letter-spacing: 0.1em;
   padding: 5px 25px;
   border: 2px solid #fff; }
+  @media (max-width: 479px) {
+    .navbar-default .navbar-nav > li > a {
+      padding: 5px 15px; } }
 
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
@@ -87,6 +90,10 @@ body {
       padding: 10px 30px 0 30px;
       line-height: 1.4em;
       font-size: 25px; } }
+  @media screen and (max-width: 479px) {
+    .main-header {
+      padding: 10px 20px 0 20px;
+      font-size: 22px; } }
 
 .section-title {
   text-transform: uppercase;
@@ -107,11 +114,19 @@ body {
       font-size: 16px; } }
 
 @media screen and (max-width: 767px) {
+  .hello-section {
+    padding: 15px 30px; } }
+
+@media screen and (max-width: 767px) {
   .first-section .container {
     text-align: center; } }
 
 .first-section .section-text {
   font-family: "PT Sans", sans-serif; }
+
+@media screen and (max-width: 767px) {
+  .first-section .first-section-text {
+    padding: 15px 30px; } }
 
 .first-section .first-section-img {
   margin-bottom: -80px; }
@@ -124,16 +139,16 @@ body {
       margin-bottom: 20px; } }
 
 .first-section .section-text {
-  padding: 57px 30px 0 30px; }
-  @media screen and (max-width: 1199px) {
-    .first-section .section-text {
-      padding: 30px 30px 0 30px; } }
+  padding: 57px 30px 0 90px; }
   @media screen and (max-width: 991px) {
     .first-section .section-text {
-      padding: 15px 15px 20px 15px; } }
+      padding: 15px 15px 20px 30px; } }
   @media screen and (max-width: 767px) {
     .first-section .section-text {
-      padding: 15px 15px 10px 15px; } }
+      padding: 15px 30px 10px 30px; } }
+  @media screen and (max-width: 479px) {
+    .first-section .section-text {
+      padding: 15px 20px 10px 20px; } }
 
 @media screen and (max-width: 767px) {
   .second-section {
@@ -145,6 +160,9 @@ body {
   @media screen and (max-width: 991px) {
     .second-section .container {
       padding: 25px 50px 30px 50px; } }
+  @media screen and (max-width: 767px) {
+    .second-section .container {
+      padding: 25px 50px 30px 75px; } }
   .second-section .container .icon-container {
     text-align: center;
     margin-bottom: 40px; }
@@ -162,6 +180,14 @@ body {
     @media screen and (max-width: 991px) {
       .second-section .container .section-text {
         padding: 0 15px; } }
+    @media screen and (max-width: 767px) {
+      .second-section .container .section-text {
+        padding: 0 65px;
+        margin-bottom: 30px; } }
+    @media screen and (max-width: 479px) {
+      .second-section .container .section-text {
+        margin-bottom: 25px;
+        padding: 0; } }
   @media screen and (max-width: 767px) {
     .second-section .container .section-title {
       margin-bottom: 20px; } }
@@ -188,13 +214,22 @@ body {
         padding: 25px 75px 40px 220px; } }
     @media screen and (max-width: 767px) {
       .shop .container {
+        padding: 30px 75px 40px 120px; } }
+    @media screen and (max-width: 536px) {
+      .shop .container {
         padding: 5px 75px 40px 120px; } }
+    @media screen and (max-width: 479px) {
+      .shop .container {
+        padding: 20px 34px 40px 65px; } }
     .shop .container .shop-container .section-text {
       margin-bottom: 75px;
       padding-right: 30px; }
       @media screen and (max-width: 991px) {
         .shop .container .shop-container .section-text {
           margin-bottom: 30px; } }
+      @media screen and (max-width: 479px) {
+        .shop .container .shop-container .section-text {
+          padding-right: 0; } }
     @media screen and (max-width: 991px) {
       .shop .container .shop-container .section-title {
         margin-bottom: 25px; } }
