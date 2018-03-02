@@ -258,6 +258,7 @@ body {
       max-width: 350px; } }
   @media screen and (max-width: 767px) {
     .shop-grid .shop-grid-content {
+      max-width: 100%;
       margin-bottom: 0; } }
   .shop-grid .shop-grid-content .shop-grid-title {
     text-transform: uppercase;
