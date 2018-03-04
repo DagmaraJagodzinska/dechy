@@ -13,8 +13,11 @@
         font-size: 25px;
     }
     @media screen and (max-width: $max-width-xxs) {
-        padding: 10px 20px 0 20px;
+        padding: 0 20px 0 20px;
         font-size: 22px;
+    }
+    @media screen and (max-width: 320px) {
+        margin-top: 0;
     }
 } 
         
@@ -43,6 +46,9 @@
     @media screen and (max-width: $max-width-xs) {
         padding: 15px 30px;
     }
+    @media screen and (max-width: $max-width-xxs) {
+        padding: 0;
+    }
 }
 
 .first-section {
@@ -58,6 +64,12 @@
     .first-section-text {
         @media screen and (max-width: $max-width-xs) {
             padding: 15px 30px;
+        }
+        @media screen and (max-width: $max-width-xxs) {
+            padding: 15px 0;
+        }
+        @media screen and (max-width: 320px) {
+            padding: 15px 0;
         }
     }
 
@@ -98,10 +110,9 @@
         @media screen and (max-width: $max-width-sm) {
             padding: 25px 50px 30px 50px;
         }
-        @media screen and (max-width: $max-width-xs) {
-            //padding: 25px 50px 30px 75px;
+        @media screen and (max-width: $max-width-xxs) {
+            padding: 25px 35px 30px 35px;
         }
-
         .icon-container {
             text-align: center;
             margin-bottom: 40px;
@@ -177,11 +188,16 @@
         }
         @media screen and (max-width: $max-width-xxs) {
             height: 400px;
-            padding: 20px 34px 40px 34px;
+            padding: 20px 25px 40px 25px;
             .row {
                 margin-left: 0;
                 margin-right: 0;
             }
+        }
+
+        @media screen and (max-width: 320px) {
+            padding: 20px 25px 40px 22px;
+            height: 420px;
         }
 
         .shop-container {
@@ -250,6 +266,9 @@
             @media screen and (max-width: $max-width-sm) {
                 font-size: 30px;
                 margin: 25px 32px;
+            }
+            @media screen and (max-width: 320px) {
+                margin: 25px 5px;
             }
         }
         .pattern-img {

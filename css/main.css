@@ -41,7 +41,7 @@ body {
   border: 2px solid #fff; }
   @media (max-width: 479px) {
     .navbar-default .navbar-nav > li > a {
-      padding: 5px 15px; } }
+      padding: 5px 10px; } }
 
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
@@ -92,8 +92,11 @@ body {
       font-size: 25px; } }
   @media screen and (max-width: 479px) {
     .main-header {
-      padding: 10px 20px 0 20px;
+      padding: 0 20px 0 20px;
       font-size: 22px; } }
+  @media screen and (max-width: 320px) {
+    .main-header {
+      margin-top: 0; } }
 
 .section-title {
   text-transform: uppercase;
@@ -117,6 +120,10 @@ body {
   .hello-section {
     padding: 15px 30px; } }
 
+@media screen and (max-width: 479px) {
+  .hello-section {
+    padding: 0; } }
+
 @media screen and (max-width: 767px) {
   .first-section .container {
     text-align: center; } }
@@ -127,6 +134,14 @@ body {
 @media screen and (max-width: 767px) {
   .first-section .first-section-text {
     padding: 15px 30px; } }
+
+@media screen and (max-width: 479px) {
+  .first-section .first-section-text {
+    padding: 15px 0; } }
+
+@media screen and (max-width: 320px) {
+  .first-section .first-section-text {
+    padding: 15px 0; } }
 
 .first-section .first-section-img {
   margin-bottom: -80px; }
@@ -160,6 +175,9 @@ body {
   @media screen and (max-width: 991px) {
     .second-section .container {
       padding: 25px 50px 30px 50px; } }
+  @media screen and (max-width: 479px) {
+    .second-section .container {
+      padding: 25px 35px 30px 35px; } }
   .second-section .container .icon-container {
     text-align: center;
     margin-bottom: 40px; }
@@ -217,10 +235,14 @@ body {
     @media screen and (max-width: 479px) {
       .shop .container {
         height: 400px;
-        padding: 20px 34px 40px 34px; }
+        padding: 20px 25px 40px 25px; }
         .shop .container .row {
           margin-left: 0;
           margin-right: 0; } }
+    @media screen and (max-width: 320px) {
+      .shop .container {
+        padding: 20px 25px 40px 22px;
+        height: 420px; } }
     .shop .container .shop-container .section-text {
       margin-bottom: 75px;
       padding-right: 30px; }
@@ -271,6 +293,9 @@ body {
       .shop-grid .shop-grid-content .shop-grid-title {
         font-size: 30px;
         margin: 25px 32px; } }
+    @media screen and (max-width: 320px) {
+      .shop-grid .shop-grid-content .shop-grid-title {
+        margin: 25px 5px; } }
   .shop-grid .shop-grid-content .pattern-img {
     margin-bottom: 60px; }
     @media screen and (max-width: 1199px) {
