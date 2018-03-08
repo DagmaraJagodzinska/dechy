@@ -1,0 +1,40 @@
+.path {
+  opacity: 1;
+}
+
+.path1, .path2, .path3, .path4 {
+  opacity: 0;
+}
+
+.animate .path {
+  animation: falafa 1.3s  normal 1;
+}
+
+.animate .path1 {
+  animation: dash .5s linear .6s normal 1;
+}
+
+.animate .path2  {
+  animation: dash .5s linear .4s normal 1;
+}
+
+.animate .path3  {
+  animation: dash .5s linear .2s normal 1;
+}
+
+.animate .path4  {
+  animation: dash .5s linear normal 1;
+}
+
+@keyframes falafa {
+  0% { opacity: 1;}
+  10% { opacity: 0; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes dash {
+0% { opacity: 0; }
+50% { opacity: .8; }
+100% { opacity: 0; }
+}
