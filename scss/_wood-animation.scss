@@ -1,0 +1,18 @@
+$Lato: 'Lato', sans-serif;
+$PtSans: 'PT Sans', sans-serif;
+
+body {
+  font-family: $Lato;
+}
+
+.is-PtSans {
+  font-family: $PtSans;
+}
+
+.is-Lato {
+  font-family: $Lato;
+}
+
+.is-bold {
+  font-weight: bold;
+}
