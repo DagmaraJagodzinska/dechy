@@ -41,7 +41,7 @@ body {
   border: 2px solid #fff; }
   @media (max-width: 479px) {
     .navbar-default .navbar-nav > li > a {
-      padding: 5px 10px; } }
+      padding: 5px 15px; } }
 
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
@@ -92,11 +92,8 @@ body {
       font-size: 25px; } }
   @media screen and (max-width: 479px) {
     .main-header {
-      padding: 0 20px 0 20px;
+      padding: 10px 20px 0 20px;
       font-size: 22px; } }
-  @media screen and (max-width: 320px) {
-    .main-header {
-      margin-top: 0; } }
 
 .section-title {
   text-transform: uppercase;
@@ -120,10 +117,6 @@ body {
   .hello-section {
     padding: 15px 30px; } }
 
-@media screen and (max-width: 479px) {
-  .hello-section {
-    padding: 0; } }
-
 @media screen and (max-width: 767px) {
   .first-section .container {
     text-align: center; } }
@@ -134,14 +127,6 @@ body {
 @media screen and (max-width: 767px) {
   .first-section .first-section-text {
     padding: 15px 30px; } }
-
-@media screen and (max-width: 479px) {
-  .first-section .first-section-text {
-    padding: 15px 0; } }
-
-@media screen and (max-width: 320px) {
-  .first-section .first-section-text {
-    padding: 15px 0; } }
 
 .first-section .first-section-img {
   margin-bottom: -80px; }
@@ -175,9 +160,6 @@ body {
   @media screen and (max-width: 991px) {
     .second-section .container {
       padding: 25px 50px 30px 50px; } }
-  @media screen and (max-width: 479px) {
-    .second-section .container {
-      padding: 25px 35px 30px 35px; } }
   .second-section .container .icon-container {
     text-align: center;
     margin-bottom: 40px; }
@@ -235,14 +217,10 @@ body {
     @media screen and (max-width: 479px) {
       .shop .container {
         height: 400px;
-        padding: 20px 25px 40px 25px; }
+        padding: 20px 34px 40px 34px; }
         .shop .container .row {
           margin-left: 0;
           margin-right: 0; } }
-    @media screen and (max-width: 320px) {
-      .shop .container {
-        padding: 20px 25px 40px 22px;
-        height: 420px; } }
     .shop .container .shop-container .section-text {
       margin-bottom: 75px;
       padding-right: 30px; }
@@ -293,9 +271,6 @@ body {
       .shop-grid .shop-grid-content .shop-grid-title {
         font-size: 30px;
         margin: 25px 32px; } }
-    @media screen and (max-width: 320px) {
-      .shop-grid .shop-grid-content .shop-grid-title {
-        margin: 25px 5px; } }
   .shop-grid .shop-grid-content .pattern-img {
     margin-bottom: 60px; }
     @media screen and (max-width: 1199px) {
@@ -307,7 +282,12 @@ body {
         width: 40%; } }
 
 .shop-grid .photo-container {
-  text-align: center; }
+  text-align: center;
+  position: relative; }
+  @media screen and (min-width: 1200px) {
+    .shop-grid .photo-container .shop-img {
+      height: 460px;
+      max-width: 460px; } }
   @media screen and (max-width: 1199px) {
     .shop-grid .photo-container .shop-img {
       max-width: 450px; } }
@@ -317,6 +297,23 @@ body {
   @media screen and (max-width: 767px) {
     .shop-grid .photo-container .shop-img {
       display: none; } }
+  .shop-grid .photo-container .image-on {
+    display: none;
+    position: absolute; }
+    @media screen and (min-width: 1200px) {
+      .shop-grid .photo-container .image-on {
+        top: 50%;
+        left: 42%; } }
+    @media screen and (max-width: 1199px) {
+      .shop-grid .photo-container .image-on {
+        top: 46%;
+        left: 39%; } }
+    @media screen and (max-width: 991px) {
+      .shop-grid .photo-container .image-on {
+        top: 46%;
+        left: 37%; } }
+  .shop-grid .photo-container .shop-img:hover + .image-on {
+    display: block; }
 
 .footer {
   background-color: #e8e8e8;
@@ -334,3 +331,58 @@ body {
     width: 30px; }
   .footer .made-by {
     color: #000000; }
+
+.path {
+  opacity: 1; }
+
+.path1, .path2, .path3, .path4 {
+  opacity: 0; }
+
+.path .path1, .path2, .path3, .path4 {
+  z-index: 1; }
+
+.animate .path {
+  animation: wave 1s  normal 1; }
+
+.animate .path1 {
+  animation: wood-anime .5s linear .4s normal 1; }
+
+.animate .path2 {
+  animation: wood-anime .5s linear .2s normal 1; }
+
+.animate .path3 {
+  animation: wood-anime .5s linear .1s normal 1; }
+
+.animate .path4 {
+  animation: wood-anime .5s linear  normal 1; }
+
+.photo-container:hover .image-on .path {
+  animation: wave 1.2s  normal 1; }
+
+.photo-container:hover .image-on .path1 {
+  animation: wood-anime .5s linear .4s normal 2; }
+
+.photo-container:hover .image-on .path2 {
+  animation: wood-anime .5s linear .2s normal 2; }
+
+.photo-container:hover .image-on .path3 {
+  animation: wood-anime .5s linear .1s normal 2; }
+
+.photo-container:hover .image-on .path4 {
+  animation: wood-anime .5s linear .2s normal 2; }
+
+@keyframes wave {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: .5; }
+  100% {
+    opacity: 1; } }
+
+@keyframes wood-anime {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: .8; }
+  100% {
+    opacity: 0; } }
