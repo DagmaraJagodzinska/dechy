@@ -41,7 +41,7 @@ body {
   border: 2px solid #fff; }
   @media (max-width: 479px) {
     .navbar-default .navbar-nav > li > a {
-      padding: 5px 15px; } }
+      padding: 5px 10px; } }
 
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
@@ -342,22 +342,22 @@ body {
   z-index: 1; }
 
 .animate .path {
-  animation: wave 1s  normal 1; }
+  animation: wave-anime 1s  normal 1; }
 
 .animate .path1 {
-  animation: wood-anime .5s linear .4s normal 1; }
+  animation: wood-anime .5s linear .4s normal 2; }
 
 .animate .path2 {
-  animation: wood-anime .5s linear .2s normal 1; }
+  animation: wood-anime .5s linear .2s normal 2; }
 
 .animate .path3 {
-  animation: wood-anime .5s linear .1s normal 1; }
+  animation: wood-anime .5s linear .1s normal 2; }
 
 .animate .path4 {
-  animation: wood-anime .5s linear  normal 1; }
+  animation: wood-anime .5s linear  normal 2; }
 
 .photo-container:hover .image-on .path {
-  animation: wave 1.2s  normal 1; }
+  animation: wave-anime 1.2s  normal 1; }
 
 .photo-container:hover .image-on .path1 {
   animation: wood-anime .5s linear .4s normal 2; }
@@ -371,11 +371,79 @@ body {
 .photo-container:hover .image-on .path4 {
   animation: wood-anime .5s linear .2s normal 2; }
 
-@keyframes wave {
+.shop-grid-content #Layer_2 {
+  opacity: 0; }
+
+.shop-grid-content:hover #Layer_2 {
+  opacity: 1; }
+
+.shop-grid-content #Layer_3 {
+  opacity: 0; }
+
+.shop-grid-content:hover #Layer_3 {
+  opacity: 1; }
+
+.shop-grid-content #Layer_4 {
+  opacity: 0; }
+
+.shop-grid-content:hover #Layer_4 {
+  opacity: 1; }
+
+.shop-grid-content #Layer_5 {
+  opacity: 0; }
+
+.shop-grid-content:hover #Layer_5 {
+  opacity: 1; }
+
+.shop-grid-content #Layer_6 {
+  opacity: 0; }
+
+.shop-grid-content:hover #Layer_6 {
+  opacity: 1; }
+
+.shop-grid-content #Layer_2 path {
+  opacity: 0; }
+
+.shop-grid-content:hover #Layer_2 path {
+  animation: pot-plant-anime .5s linear normal 1; }
+
+.shop-grid-content #Layer_3 path {
+  opacity: 0; }
+
+.shop-grid-content:hover #Layer_3 path {
+  animation: pot-plant-anime .8s linear .2s normal 1; }
+
+.shop-grid-content #Layer_4 path {
+  opacity: 0; }
+
+.shop-grid-content:hover #Layer_4 path {
+  animation: pot-plant-anime .8s linear .4s normal 1; }
+
+.shop-grid-content #Layer_5 path {
+  opacity: 1; }
+
+.shop-grid-content:hover #Layer_5 path {
+  animation: pot-wave-anime 1s linear normal 1; }
+
+.shop-grid-content #Layer_6 path {
+  opacity: 1; }
+
+.shop-grid-content:hover #Layer_6 path {
+  animation: pot-wave-anime 1.2s linear normal 1; }
+
+@keyframes wave-anime {
   0% {
     opacity: 0; }
   50% {
     opacity: .5; }
+  100% {
+    opacity: 1; } }
+
+@keyframes pot-wave-anime {
+  0% {
+    opacity: 0; }
+  70% {
+    opacity: 0; }
   100% {
     opacity: 1; } }
 
@@ -386,3 +454,32 @@ body {
     opacity: .8; }
   100% {
     opacity: 0; } }
+
+@keyframes pot-plant-anime {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: .8; }
+  100% {
+    opacity: 0; } }
+
+.cookies-container {
+  display: none;
+  position: absolute;
+  top: 0;
+  opacity: 0.5;
+  background-color: #373D3F;
+  color: red; }
+
+.no-js-cookies-container {
+  position: absolute;
+  top: 0;
+  opacity: 0.5;
+  background-color: #373D3F;
+  color: red; }
+  .no-js-cookies-container .no-js-cookies-input {
+    display: none; }
+    .no-js-cookies-container .no-js-cookies-input:checked ~ .no-js-cookies-info {
+      display: none; }
+  .no-js-cookies-container .no-js-cookies-info {
+    display: block; }

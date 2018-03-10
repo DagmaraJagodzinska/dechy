@@ -1,0 +1,25 @@
+.cookies-container {
+  display: none; // to musi zostać
+  position: absolute;
+  top:0;
+  opacity: 0.5;
+  background-color: #373D3F;
+  color: red;
+}
+
+.no-js-cookies-container {
+  position: absolute;
+  top:0;
+  opacity: 0.5;
+  background-color: #373D3F;
+  color: red;
+  .no-js-cookies-input { //to wszystko musi zostać
+    display: none;
+    &:checked ~ .no-js-cookies-info {
+      display: none;
+    }
+  }
+  .no-js-cookies-info {
+    display: block;
+  }
+}
