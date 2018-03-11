@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .main-header {
     padding: 70px 90px;
     line-height: 1.5em;
@@ -340,4 +341,348 @@
     .made-by {
         color: $black;
     }
+=======
+.main-header {
+    padding: 70px 90px;
+    line-height: 1.5em;
+
+    @media screen and (max-width: $max-width-sm) {
+        padding: 40px 30px;
+        line-height: 1.3em;
+        font-size: 27px;
+    }
+    @media screen and (max-width: $max-width-xs) {
+        padding: 10px 30px 0 30px;
+        line-height: 1.4em;
+        font-size: 25px;
+    }
+    @media screen and (max-width: $max-width-xxs) {
+        padding: 10px 20px 0 20px;
+        font-size: 22px;
+    }
+}
+
+.section-title {
+    text-transform: uppercase;
+    font-size: 45px;
+    margin-bottom: 55px;
+    @media screen and (max-width: $max-width-sm) {
+        font-size: 35px;
+    }
+}
+
+.section-text {
+    font-size: 19px;
+    line-height: 1.5em;
+    @media screen and (max-width: $max-width-sm) {
+        font-size: 17px;
+    }
+    @media screen and (max-width: $max-width-xs) {
+        font-size: 16px;
+    }
+
+}
+
+.hello-section {
+    @media screen and (max-width: $max-width-xs) {
+        padding: 15px 30px;
+    }
+}
+
+.first-section {
+    .container {
+        @media screen and (max-width: $max-width-xs) {
+            text-align: center;
+        }
+    }
+    .section-text {
+        font-family: $PtSans;
+    }
+
+    .first-section-text {
+        @media screen and (max-width: $max-width-xs) {
+            padding: 15px 30px;
+        }
+    }
+
+    .first-section-img {
+        margin-bottom: -80px;
+
+        @media screen and (max-width: $max-width-st) {
+            width: 90%;
+        }
+        @media screen and (max-width: $max-width-xs) {
+            width: 60%;
+            margin-bottom: 20px;
+        }
+    }
+    .section-text {
+        padding: 57px 30px 0 90px;
+
+        @media screen and (max-width: $max-width-sm) {
+            padding: 15px 15px 20px 30px;
+        }
+        @media screen and (max-width: $max-width-xs) {
+            padding: 15px 30px 10px 30px;
+        }
+        @media screen and (max-width: $max-width-xxs) {
+            padding: 15px 20px 10px 20px;
+        }
+    }
+}
+
+.second-section {
+    @media screen and (max-width: $max-width-xs) {
+        margin-bottom: 40px;
+    }
+    .container {
+        background-color: #f6f8f0;
+        padding: 25px 80px 30px 80px;
+
+        @media screen and (max-width: $max-width-sm) {
+            padding: 25px 50px 30px 50px;
+        }
+        @media screen and (max-width: $max-width-xs) {
+            //padding: 25px 50px 30px 75px;
+        }
+
+        .icon-container {
+            text-align: center;
+            margin-bottom: 40px;
+
+            .second-section-img {
+                @media screen and (max-width: $max-width-sm) {
+                    width: 60%;
+                }
+                @media screen and (max-width: $max-width-xs) {
+                    width: 30%;
+                }
+                @media screen and (max-width: $max-width-xxs) {
+                    width: 50%;
+                }
+            }
+        }
+
+        .section-text {
+            padding: 0 70px;
+            @media screen and (max-width: $max-width-st) {
+                padding: 0 50px;
+            }
+            @media screen and (max-width: $max-width-sm) {
+                padding: 0 15px;
+            }
+            @media screen and (max-width: $max-width-xs) {
+                //padding: 0 65px;
+                margin-bottom: 30px;
+            }
+            @media screen and (max-width: $max-width-xxs) {
+                margin-bottom: 25px;
+                padding: 0;
+            }
+        }
+
+        .section-title {
+            @media screen and (max-width: $max-width-xs) {
+            margin-bottom: 20px;
+            }
+        }
+    }
+}
+
+.pattern {
+    .pattern-img {
+        padding: 50px 30px;
+        @media screen and (max-width: $max-width-xs) {
+            display: none;
+        }
+    }
+}
+
+.shop {
+    margin-bottom: 85px;
+    @media screen and (max-width: $max-width-xs) {
+        margin-bottom: 45px;
+    }
+
+    .container {
+        background: url("../img/tlo_sklep.jpg")no-repeat center center;
+        background-size: cover;
+        height: 462px;
+        padding: 40px;
+
+        @media screen and (max-width: $max-width-sm) {
+            height: 350px;
+            padding: 20px 34px 40px 120px;
+
+        }
+        @media screen and (max-width: 536px) {
+            padding: 20px 34px 40px 100px;
+
+        }
+        @media screen and (max-width: $max-width-xxs) {
+            height: 400px;
+            padding: 20px 34px 40px 34px;
+            .row {
+                margin-left: 0;
+                margin-right: 0;
+            }
+        }
+
+        .shop-container {
+            .section-text {
+                margin-bottom: 75px;
+                padding-right: 30px;
+
+                @media screen and (max-width: $max-width-sm) {
+                    margin-bottom: 30px;
+                }
+
+                @media screen and (max-width: $max-width-xxs) {
+                    padding-right: 0;
+                }
+            }
+
+            .section-title {
+                @media screen and (max-width: $max-width-sm) {
+                    margin-bottom: 25px;
+                }
+            }
+
+            .shop-button {
+                margin-right: 30px;
+            }
+        }
+
+    }
+}
+
+.shop-grid {
+    .row {
+        margin-bottom: 70px;
+
+        @media screen and (max-width: $max-width-sm) {
+            margin-bottom: 40px;
+        }
+    }
+    .shop-grid-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 5px solid $light-grey;
+        width: 484px;
+        margin: 0 auto;
+
+        @media screen and (max-width: $max-width-st) {
+            max-width: 450px;
+        }
+        @media screen and (max-width: $max-width-sm) {
+            max-width: 350px;
+        }
+        @media screen and (max-width: $max-width-xs) {
+            max-width: 100%;
+            margin-bottom: 0;
+        }
+        .shop-grid-title {
+            text-transform: uppercase;
+            margin: 46px 40px;
+            font-size: 40px;
+
+            @media screen and (max-width: $max-width-st) {
+                margin: 36px 40px;
+            }
+            @media screen and (max-width: $max-width-sm) {
+                font-size: 30px;
+                margin: 25px 32px;
+            }
+        }
+        .pattern-img {
+            margin-bottom: 60px;
+
+            @media screen and (max-width: $max-width-st) {
+                margin-bottom: 50px;
+            }
+            @media screen and (max-width: $max-width-sm) {
+                margin-bottom: 28px;
+                width: 40%;
+            }
+        }
+    }
+
+    .photo-container {
+        text-align: center;
+        position: relative;
+
+        .shop-img {
+            @media screen and (min-width: $min-width-lg) {
+                height: 460px;
+                max-width: 460px;
+            }
+
+            @media screen and (max-width: $max-width-st) {
+                max-width: 450px;
+            }
+            @media screen and (max-width: $max-width-sm) {
+                max-width: 350px;
+            }
+            @media screen and (max-width: $max-width-xs) {
+                display: none;
+            }
+        }
+
+        .image-on {
+          display: none;
+          position: absolute;
+
+          @media screen and (min-width: $min-width-lg) {
+            top: 50%;
+            left: 42%;
+          }
+
+          @media screen and (max-width: $max-width-st) {
+            top: 46%;
+            left: 39%;
+          }
+          @media screen and (max-width: $max-width-sm) {
+            top: 46%;
+            left: 37%;
+          }
+        }
+
+      .shop-img:hover + .image-on {
+            display: block;
+        }
+    }
+}
+
+.footer {
+    background-color: $light-grey;
+    padding: 60px 0;
+
+    .icons {
+        @media screen and (max-width: $max-width-xs) {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+    }
+
+    .rights {
+        @media screen and (max-width: $max-width-xs) {
+            text-align: center;
+        }
+    }
+
+    .social {
+        a {
+            margin-right: 10px;
+        }
+
+        .icon {
+            width: 30px;
+        }
+    }
+    .made-by {
+        color: $black;
+    }
+>>>>>>> 0b2cd4da83ec8d29683bc7e6d1fbb7d78e8f6215
 }

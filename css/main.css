@@ -41,7 +41,7 @@ body {
   border: 2px solid #fff; }
   @media (max-width: 479px) {
     .navbar-default .navbar-nav > li > a {
-      padding: 5px 15px; } }
+      padding: 5px 10px; } }
 
 .navbar-default .navbar-nav > li > a:focus,
 .navbar-default .navbar-nav > li > a:hover {
@@ -462,3 +462,27 @@ body {
     opacity: .8; }
   100% {
     opacity: 0; } }
+<<<<<<< HEAD
+=======
+
+.cookies-container {
+  display: none;
+  position: absolute;
+  top: 0;
+  opacity: 0.5;
+  background-color: #373D3F;
+  color: red; }
+
+.no-js-cookies-container {
+  position: absolute;
+  top: 0;
+  opacity: 0.5;
+  background-color: #373D3F;
+  color: red; }
+  .no-js-cookies-container .no-js-cookies-input {
+    display: none; }
+    .no-js-cookies-container .no-js-cookies-input:checked ~ .no-js-cookies-info {
+      display: none; }
+  .no-js-cookies-container .no-js-cookies-info {
+    display: block; }
+>>>>>>> 0b2cd4da83ec8d29683bc7e6d1fbb7d78e8f6215
