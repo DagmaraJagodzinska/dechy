@@ -341,9 +341,6 @@ body {
 .path .path1, .path2, .path3, .path4 {
   z-index: 1; }
 
-.animate .path {
-  animation: wave-anime 1s  normal 1; }
-
 .animate .path1 {
   animation: wood-anime .5s linear .4s normal 2; }
 
@@ -462,8 +459,6 @@ body {
     opacity: .8; }
   100% {
     opacity: 0; } }
-<<<<<<< HEAD
-=======
 
 .cookies-container {
   display: none;
@@ -485,4 +480,3 @@ body {
       display: none; }
   .no-js-cookies-container .no-js-cookies-info {
     display: block; }
->>>>>>> 0b2cd4da83ec8d29683bc7e6d1fbb7d78e8f6215
