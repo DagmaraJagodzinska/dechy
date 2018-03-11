@@ -1,50 +1,6 @@
-.path {
-  opacity: 1;
-}
-
-.path1, .path2, .path3, .path4 {
-  opacity: 0;
-}
-
   .path .path1, .path2, .path3, .path4 {
     z-index: 1;
   }
-
-.animate .path1 {
-  animation: wood-anime .5s linear .4s normal 2;
-}
-
-.animate .path2 {
-  animation: wood-anime .5s linear .2s normal 2;
-}
-
-.animate .path3 {
-  animation: wood-anime .5s linear .1s normal 2;
-}
-
-.animate .path4 {
-  animation: wood-anime .5s linear  normal 2;
-}
-
-.photo-container:hover .image-on .path {
-  animation: wave-anime 1.2s  normal 1;
-}
-
-.photo-container:hover .image-on .path1{
-  animation: wood-anime .5s linear .4s normal 2;
-}
-
-.photo-container:hover .image-on .path2  {
-  animation: wood-anime .5s linear .2s normal 2;
-}
-
-.photo-container:hover .image-on .path3 {
-  animation: wood-anime .5s linear .1s normal 2;
-}
-
-.photo-container:hover .image-on .path4 {
-  animation: wood-anime .5s linear .2s normal 2;
-}
 
 // ======= pot-icon
 
@@ -102,23 +58,11 @@
   }
 }
 
-@keyframes wave-anime {
-  0% { opacity: 0;}
-  50% { opacity: .5; }
-  100% { opacity: 1; }
-}
-
 @keyframes pot-wave-anime {
   0% { opacity: 0;}
   70% { opacity: 0; }
   100% { opacity: 1; }
 }
-
-@keyframes wood-anime {
-   0% { opacity: 0; }
-   50% { opacity: .8; }
-   100% { opacity: 0; }
- }
 
 @keyframes pot-plant-anime {
   0% { opacity: 0; }

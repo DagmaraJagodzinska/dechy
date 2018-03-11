@@ -11,9 +11,9 @@ $(document).ready(function () {
 
     var woodWave = $('.wood-animated');
 
-    // plant.load('../img/plant_icon1.svg', function () {
-    //     plant.parent().find('img').css('display', 'none');
-    // });
+    plant.load('../img/plant_icon1.svg', function () {
+        plant.parent().find('img').css('display', 'none');
+    });
     //
     // wood.load('../img/wood_icon1.svg', function () {
     //     wood.parent().find('img').css('display', 'none');
