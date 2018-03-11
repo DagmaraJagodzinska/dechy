@@ -503,27 +503,11 @@ body {
     stroke-dashoffset: 0;
     animation: dash 2s linear normal 1; }
 
-.shop-grid-content #weed_3 {
-  opacity: 0; }
+.shop-grid-content:hover #weed_3 path {
+  animation-delay: .5s; }
 
-.shop-grid-content:hover #weed_3 {
-  opacity: 1; }
-  .shop-grid-content:hover #weed_3 path {
-    stroke-dasharray: 160;
-    stroke-dashoffset: 0;
-    animation: dash 2s linear normal 1;
-    animation-delay: .5s; }
-
-.shop-grid-content #weed_2 {
-  opacity: 0; }
-
-.shop-grid-content:hover #weed_2 {
-  opacity: 1; }
-  .shop-grid-content:hover #weed_2 path {
-    stroke-dasharray: 160;
-    stroke-dashoffset: 0;
-    animation: dash 2s linear normal 1;
-    animation-delay: .3s; }
+.shop-grid-content:hover #weed_2 path {
+  animation-delay: .3s; }
 
 @keyframes dash {
   from {
