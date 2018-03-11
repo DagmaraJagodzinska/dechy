@@ -2,7 +2,22 @@ $(document).ready(function () {
 
     var potContainer = $('.pot-container');
     var pot = potContainer.find('.icon-box');
+
+    var plantContainer = $('.plant-container');
+    var plant = plantContainer.find('.icon-box');
+
+    var woodContainer = $('.wood-container');
+    var wood = woodContainer.find('.icon-box');
+
     var woodWave = $('.wood-animated');
+
+    // plant.load('../img/plant_icon1.svg', function () {
+    //     plant.parent().find('img').css('display', 'none');
+    // });
+    //
+    // wood.load('../img/wood_icon1.svg', function () {
+    //     wood.parent().find('img').css('display', 'none');
+    // });
 
     pot.load('../img/pot_icon1.svg', function () {
         pot.parent().find('img').css('display', 'none');
