@@ -1,14 +1,12 @@
-
 $(document).ready(function () {
 
     var potContainer = $('.pot-container');
     var pot = potContainer.find('.icon-box');
+    var woodWave = $('.wood-animated');
 
     pot.load('../img/pot_icon1.svg', function () {
         pot.parent().find('img').css('display', 'none');
     });
-
-    var woodWave = $('.wood-animated');
 
     $(window).scroll(function () {
         var marginPoint = 100;
@@ -21,13 +19,11 @@ $(document).ready(function () {
             var middle_bottom_of_window = bottom_of_window - marginPoint;
             var top_of_window = $(window).scrollTop();
 
-                if (bottom_of_object > middle_top_of_window && top_of_object < middle_bottom_of_window ) {
-                    console.log('set animation');
-                    $(this).addClass('animate');
-                } else {
-                    $(this).removeClass('animate');
-                    console.log('no no');
-                }
+            if (bottom_of_object > middle_top_of_window && top_of_object < middle_bottom_of_window) {
+                $(this).addClass('animate');
+            } else {
+                $(this).removeClass('animate');
+            }
         });
     });
 });
