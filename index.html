@@ -27,6 +27,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"
             integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
             crossorigin="anonymous"></script>
+    <script type="text/javascript" src="scripts/cookies.js"></script>
     <script src="wood-animation.js"></script>
 </head>
 <body>
@@ -337,6 +338,29 @@
         </div>
     </div>
 </section>
+
+
+<!--cookies-->
+<div id="cookies-info" class="cookies-container">
+    <p>Uzywamy ciasteczek</p>
+    <a target="_blank" href="">dowiedz się więcej</a>
+    <button onclick="agreeCookies()">ok</button>
+</div>
+
+<button onclick="deleteCoookie()"> delete cookie</button>
+
+<noscript>
+    <div class="no-js-cookies-container">
+        <input type="checkbox" class="no-js-cookies-input" id="no-js-cookies-input"/>
+        <div class="no-js-cookies-info">
+            <p>Uzywamy ciasteczek</p>
+            <a target="_blank" href="">dowiedz się więcej</a>
+            <label class="no-js-cookies-label btn" for="no-js-cookies-input">ok</label>
+        </div>
+    </div>
+</noscript>
+<!--cookies-->
+
 </body>
 <footer class="footer">
     <div class="container">
