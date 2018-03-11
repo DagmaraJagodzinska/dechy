@@ -8,17 +8,11 @@
 .shop-grid-content:hover #end_7 {
   opacity: 1;
   path {
-    stroke-dasharray: 100;
+    stroke-dasharray: 200;
     stroke-dashoffset: 0;
     animation: dash 1s linear normal 1;
   }
 }
-
-//.shop-grid-content:hover #contur {
-//  path {
-//    //animation: colorize 2s linear normal 1;
-//  }
-//}
 
 @for $i from 1 through 3 {
   .shop-grid-content #weed_#{$i} {
@@ -31,6 +25,32 @@
       stroke-dashoffset: 0;
       animation: dash 2s linear normal 1;
     }
+  }
+}
+
+.shop-grid-content #weed_3 {
+  opacity: 0;
+}
+.shop-grid-content:hover #weed_3 {
+  opacity: 1;
+  path {
+    stroke-dasharray: 160;
+    stroke-dashoffset: 0;
+    animation: dash 2s linear normal 1;
+    animation-delay: .5s;
+  }
+}
+
+.shop-grid-content #weed_2 {
+  opacity: 0;
+}
+.shop-grid-content:hover #weed_2 {
+  opacity: 1;
+  path {
+    stroke-dasharray: 160;
+    stroke-dashoffset: 0;
+    animation: dash 2s linear normal 1;
+    animation-delay: .3s;
   }
 }
 
