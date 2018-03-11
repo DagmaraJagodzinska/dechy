@@ -1,8 +1,15 @@
 
 $(document).ready(function () {
-    var smallMediaWidth = 768;
+
+    var potContainer = $('.pot-container');
+    var pot = $('.pot');
+
+    pot.load('../img/pot_icon1.svg', function () {
+        pot.parent().find('img').css('display', 'none');
+    });
+
     var woodWave = $('.wood-animated');
-    $(woodWave).each(function (i) {
+    woodWave.each(function (i) {
         var top_of_object = $(this).offset().top;
         var bottom_of_window = $(window).scrollTop() + $(window).height();
         var top_of_window = $(window).scrollTop();
@@ -14,7 +21,7 @@ $(document).ready(function () {
         }
     });
 
-    $(window).scroll(function () {
+    woodWave.scroll(function () {
         $('.wood-animated').each(function (i) {
             var bottom_of_object =
                 $(this).offset().top + $(this).outerHeight();
@@ -29,5 +36,4 @@ $(document).ready(function () {
                 }
         });
     });
-
 });
