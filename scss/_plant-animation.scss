@@ -8,9 +8,9 @@
 .shop-grid-content:hover #end_7 {
   opacity: 1;
   path {
-    stroke-dasharray: 200;
+    stroke-dasharray: 160;
     stroke-dashoffset: 0;
-    animation: dash 1s linear normal 1;
+    animation: dash 2s linear normal 1;
   }
 }
 
@@ -22,8 +22,8 @@
     opacity: 1;
     path {
       stroke-dasharray: 160;
-      stroke-dashoffset: 0;
-      animation: dash 2s linear normal 1;
+      stroke-dashoffset: 160;
+      animation: dash 2s linear alternate infinite;
     }
   }
 }
@@ -41,11 +41,15 @@
 }
 
 @keyframes dash {
-  from {
-    stroke-dasharray: 100;
-    stroke-dashoffset: 200;
+  0% {
+    stroke-dasharray: 160;
+    stroke-dashoffset: 160;
   }
-  to {
+  50% {
+    stroke-dasharray: 160;
+    stroke-dashoffset: 0;
+  }
+  100% {
     stroke-dasharray: 160;
     stroke-dashoffset: 0;
   }
