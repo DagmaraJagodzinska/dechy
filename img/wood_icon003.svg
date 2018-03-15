@@ -1,0 +1,34 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px"
+	 height="30px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<g id="Layer_1">
+
+		<circle fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="11.333" cy="13.668" r="34.5"/>
+	<g>
+		<defs>
+			<circle id="SVGID_1_" cx="11.333" cy="13.668" r="34.5"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#000000" stroke-miterlimit="10" d="M30.019,24.196
+			c-3.287,2.046-6.685,6.29-6.291,14.152c0.395,7.861,3.538,22.014,10.222,14.545s1.18-13.76,3.538-19.656
+			C39.846,27.34,35.722,20.646,30.019,24.196z"/>
+		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#000000" stroke-miterlimit="10" d="M29.281,12.444
+			C23.44,16.08,17.402,23.623,18.103,37.593c0.7,13.971-10.067,42.081,7.198,37.708c29.484-7.469,13.062-36.313,17.253-46.79
+			C46.746,18.031,39.416,6.135,29.281,12.444z"/>
+		<g clip-path="url(#SVGID_2_)">
+
+				<path fill="none" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.9224,4.9224" d="
+				M24.562,4.455C15.998,11.353,5.578,22.318,6.696,44.644c1.12,22.326-16.087,67.25,11.503,60.261
+				C65.317,92.97,49.66,49.59,56.357,32.844C63.057,16.099,44.956-11.971,24.562,4.455z"/>
+		</g>
+		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" d="M37.095-10.399
+			c0,0-25.945,6.682-33.022,27.125c-7.076,20.442-14.938,44.815-22.408,51.498c-7.47,6.684-14.152,5.11-5.896-8.255
+			c8.255-13.366,14.938-29.091,18.083-41.277C-3.003,6.506-1.825-19.44,21.369-25.336c23.194-5.897-11.006-6.29-20.834,8.255
+			S-8.115,10.044-10.473,17.12c-2.359,7.076-10.614,27.518-14.152,32.235c-3.538,4.717-13.759-7.863-9.435-12.58
+			c4.325-4.718,13.365-9.828,15.332-20.441c1.966-10.615,3.932-22.015-0.786-29.091"/>
+	</g>
+</g>
+<g id="Layer_2">
+</g>
+</svg>

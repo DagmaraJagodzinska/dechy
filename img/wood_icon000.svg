@@ -1,0 +1,27 @@
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="30px" height="30px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<circle fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="11.333" cy="13.668" r="34.5"/>
+<g>
+	<defs>
+		<circle id="SVGID_1_" cx="11.333" cy="13.668" r="34.5"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+	</clipPath>
+	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#000000" stroke-miterlimit="10" d="M25.834,11.501
+		c-2.787,1.735-5.668,5.334-5.334,12s3,18.666,8.667,12.333s1-11.667,3-16.667S30.67,8.49,25.834,11.501z"/>
+
+	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#000000" stroke-miterlimit="10" d="M25.209,1.536
+		c-4.953,3.083-10.072,9.479-9.479,21.324s-8.536,35.682,6.104,31.974c25-6.333,11.075-30.79,14.629-39.675
+		C40.018,6.273,33.803-3.813,25.209,1.536z"/>
+	<g clip-path="url(#SVGID_2_)">
+		
+			<path fill="none" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.8995,4.8995" d="
+			M21.207-5.238C13.945,0.61,5.11,9.909,6.059,28.839C7.008,47.77-7.582,85.861,15.813,79.936
+			c39.952-10.12,26.676-46.902,32.354-61.102C53.848,4.635,38.5-19.166,21.207-5.238z"/>
+	</g>
+	<path clip-path="url(#SVGID_2_)" fill="none" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" d="M31.834-17.833
+		c0,0-22,5.666-28,23s-12.666,38-19,43.667s-12,4.333-5-7s12.666-24.667,15.333-35S-1.167-25.499,18.5-30.499s-9.332-5.333-17.666,7
+		s-7.334,23-9.334,29s-9,23.333-12,27.333s-11.667-6.667-8-10.667s11.333-8.333,13-17.333s3.334-18.667-0.666-24.667"/>
+</g>
+</svg>

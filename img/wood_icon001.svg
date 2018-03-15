@@ -1,0 +1,34 @@
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="30px"
+	 height="30px" viewBox="0 0 30 30" enable-background="new 0 0 30 30" xml:space="preserve">
+<g id="Layer_1">
+
+		<circle fill="none" stroke="#000000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="10" cx="11.333" cy="13.668" r="34.5"/>
+	<g>
+		<defs>
+			<circle id="SVGID_1_" cx="11.333" cy="13.668" r="34.5"/>
+		</defs>
+		<clipPath id="SVGID_2_">
+			<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		</clipPath>
+		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#000000" stroke-miterlimit="10" d="M35.738-0.884
+			c-3.287,2.046-6.685,6.291-6.291,14.152c0.395,7.861,3.538,22.014,10.222,14.545s1.18-13.76,3.538-19.656
+			C45.565,2.26,41.441-4.435,35.738-0.884z"/>
+		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#000000" stroke-miterlimit="10" d="M35.001-12.636
+			C29.16-9,23.122-1.458,23.822,12.513c0.7,13.971-10.067,42.081,7.198,37.708c29.484-7.469,13.062-36.312,17.253-46.79
+			C52.466-7.049,45.136-18.945,35.001-12.636z"/>
+		<g clip-path="url(#SVGID_2_)">
+
+				<path fill="none" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4.9224,4.9224" d="
+				M30.281-20.625c-8.563,6.898-18.983,17.864-17.865,40.189c1.12,22.326-16.087,67.25,11.503,60.261
+				C71.037,67.89,55.38,24.51,62.077,7.764C68.776-8.981,50.676-37.051,30.281-20.625z"/>
+		</g>
+		<path clip-path="url(#SVGID_2_)" fill="none" stroke="#000000" stroke-width="1.5" stroke-miterlimit="10" d="M42.814-35.479
+			c0,0-25.945,6.682-33.022,27.125C2.716,12.089-5.145,36.462-12.615,43.145c-7.47,6.684-14.152,5.11-5.896-8.255
+			C-10.256,21.523-3.574,5.798-0.429-6.388C2.716-18.574,3.895-44.52,27.089-50.417c23.194-5.897-11.006-6.29-20.834,8.255
+			S-2.395-15.036-4.753-7.96c-2.359,7.076-10.614,27.518-14.152,32.235c-3.538,4.717-13.759-7.863-9.435-12.58
+			c4.325-4.718,13.365-9.828,15.332-20.442c1.966-10.614,3.932-22.015-0.786-29.091"/>
+	</g>
+</g>
+<g id="Layer_2">
+</g>
+</svg>
