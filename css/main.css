@@ -368,6 +368,25 @@ body {
 .photo-container:hover .image-on .path4 {
   animation: wood-anime .5s linear .2s normal 2; }
 
+@keyframes wave-anime {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: .5; }
+  100% {
+    opacity: 1; } }
+
+@keyframes wood-anime {
+  0% {
+    opacity: 0; }
+  50% {
+    opacity: .8; }
+  100% {
+    opacity: 0; } }
+
+.path .path1, .path2, .path3, .path4 {
+  z-index: 1; }
+
 .shop-grid-content #Layer_2 {
   opacity: 0; }
 
@@ -428,14 +447,6 @@ body {
 .shop-grid-content:hover #Layer_6 path {
   animation: pot-wave-anime 1.2s linear normal 1; }
 
-@keyframes wave-anime {
-  0% {
-    opacity: 0; }
-  50% {
-    opacity: .5; }
-  100% {
-    opacity: 1; } }
-
 @keyframes pot-wave-anime {
   0% {
     opacity: 0; }
@@ -444,14 +455,6 @@ body {
   100% {
     opacity: 1; } }
 
-@keyframes wood-anime {
-  0% {
-    opacity: 0; }
-  50% {
-    opacity: .8; }
-  100% {
-    opacity: 0; } }
-
 @keyframes pot-plant-anime {
   0% {
     opacity: 0; }
@@ -459,6 +462,71 @@ body {
     opacity: .8; }
   100% {
     opacity: 0; } }
+
+.shop-grid-content #end_7 {
+  opacity: 0; }
+
+.shop-grid-content:hover #end_7 {
+  opacity: 1; }
+  .shop-grid-content:hover #end_7 path {
+    stroke-dasharray: 160;
+    stroke-dashoffset: 0;
+    animation: dash 2s linear normal 1; }
+
+.shop-grid-content #weed_1 {
+  opacity: 0; }
+
+.shop-grid-content:hover #weed_1 {
+  opacity: 1; }
+  .shop-grid-content:hover #weed_1 path {
+    stroke-dasharray: 160;
+    stroke-dashoffset: 160;
+    animation: dash 2s linear alternate infinite; }
+
+.shop-grid-content #weed_2 {
+  opacity: 0; }
+
+.shop-grid-content:hover #weed_2 {
+  opacity: 1; }
+  .shop-grid-content:hover #weed_2 path {
+    stroke-dasharray: 160;
+    stroke-dashoffset: 160;
+    animation: dash 2s linear alternate infinite; }
+
+.shop-grid-content #weed_3 {
+  opacity: 0; }
+
+.shop-grid-content:hover #weed_3 {
+  opacity: 1; }
+  .shop-grid-content:hover #weed_3 path {
+    stroke-dasharray: 160;
+    stroke-dashoffset: 160;
+    animation: dash 2s linear alternate infinite; }
+
+.shop-grid-content:hover #weed_3 path {
+  animation-delay: .5s; }
+
+.shop-grid-content:hover #weed_2 path {
+  animation-delay: .3s; }
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 160;
+    stroke-dashoffset: 160; }
+  50% {
+    stroke-dasharray: 160;
+    stroke-dashoffset: 0; }
+  100% {
+    stroke-dasharray: 160;
+    stroke-dashoffset: 0; } }
+
+@keyframes colorize {
+  0% {
+    fill: #000; }
+  50% {
+    fill: #a2ab8a; }
+  100% {
+    fill: #000; } }
 
 .wood-container:hover #wood-pattern {
   cursor: pointer; }

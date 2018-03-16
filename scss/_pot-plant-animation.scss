@@ -1,0 +1,71 @@
+  .path .path1, .path2, .path3, .path4 {
+    z-index: 1;
+  }
+
+// ======= pot-icon
+
+@for $i from 2 through 6 {
+  .shop-grid-content #Layer_#{$i} {
+    opacity: 0;
+  }
+  .shop-grid-content:hover #Layer_#{$i} {
+    opacity: 1;
+  }
+}
+
+.shop-grid-content {
+  #Layer_2 path {
+    opacity: 0;
+  }
+  &:hover #Layer_2 path {
+     animation: pot-plant-anime .5s linear normal 1;
+   }
+}
+
+.shop-grid-content {
+  #Layer_3 path {
+    opacity: 0;
+  }
+  &:hover #Layer_3 path {
+    animation: pot-plant-anime .8s linear .2s normal 1;
+  }
+}
+
+.shop-grid-content {
+  #Layer_4 path {
+    opacity: 0;
+  }
+  &:hover #Layer_4 path {
+    animation: pot-plant-anime .8s linear .4s normal 1;
+  }
+}
+
+.shop-grid-content {
+  #Layer_5 path {
+    opacity: 1;
+  }
+  &:hover #Layer_5 path {
+    animation: pot-wave-anime 1s linear normal 1;
+  }
+}
+
+.shop-grid-content {
+  #Layer_6 path {
+    opacity: 1;
+  }
+  &:hover #Layer_6 path {
+    animation: pot-wave-anime 1.2s linear normal 1;
+  }
+}
+
+@keyframes pot-wave-anime {
+  0% { opacity: 0;}
+  70% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes pot-plant-anime {
+  0% { opacity: 0; }
+  50% { opacity: .8; }
+  100% { opacity: 0; }
+}
