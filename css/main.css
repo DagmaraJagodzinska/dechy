@@ -460,6 +460,42 @@ body {
   100% {
     opacity: 0; } }
 
+.wood-container:hover #wood-pattern {
+  cursor: pointer; }
+  .wood-container:hover #wood-pattern #contour1, .wood-container:hover #wood-pattern #SVGID_1_ {
+    animation: contour-anime 2.5s linear normal 1; }
+
+.wood-container:hover #wood-pattern {
+  cursor: pointer; }
+  .wood-container:hover #wood-pattern #contour1, .wood-container:hover #wood-pattern #SVGID_1_ {
+    animation: contour-anime 2.5s linear normal 1; }
+
+@keyframes contour-anime {
+  0% {
+    cx: 88.408;
+    cy: 87.957;
+    r: 84.784; }
+  20% {
+    cx: 65;
+    cy: 90;
+    r: 60; }
+  35% {
+    cx: 80;
+    cy: 65;
+    r: 60; }
+  5% {
+    cx: 110;
+    cy: 65;
+    r: 60; }
+  80% {
+    cx: 100;
+    cy: 107;
+    r: 60; }
+  100% {
+    cx: 88.408;
+    cy: 87.957;
+    r: 84.784; } }
+
 .cookies-container {
   display: none;
   position: absolute;
