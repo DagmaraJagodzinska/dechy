@@ -12,15 +12,15 @@ $(document).ready(function () {
     var woodWave = $('.wood-animated');
 
     plant.load('../img/plant_icon1.svg', function () {
-        plant.parent().find('img').css('display', 'none');
+        plant.parent().addClass('pattern-img').find('img').css('display', 'none');
     });
     //
     wood.load('../img/wood_icon000.svg', function () {
-        wood.parent().find('img').css('display', 'none');
+        wood.parent().addClass('pattern-img').find('img').css('display', 'none');
     });
 
     pot.load('../img/pot_icon1.svg', function () {
-        pot.parent().find('img').css('display', 'none');
+        pot.parent().addClass('pattern-img').find('img').css('display', 'none');
     });
 
     $(window).scroll(function () {

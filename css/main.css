@@ -191,10 +191,10 @@ body {
     .second-section .container .section-title {
       margin-bottom: 20px; } }
 
-.pattern .pattern-img {
+.pattern .pattern-img, .pattern .icon-box {
   padding: 50px 30px; }
   @media screen and (max-width: 767px) {
-    .pattern .pattern-img {
+    .pattern .pattern-img, .pattern .icon-box {
       display: none; } }
 
 .shop {
@@ -271,13 +271,13 @@ body {
       .shop-grid .shop-grid-content .shop-grid-title {
         font-size: 30px;
         margin: 25px 32px; } }
-  .shop-grid .shop-grid-content .pattern-img {
+  .shop-grid .shop-grid-content .pattern-img, .shop-grid .shop-grid-content .icon-box {
     margin-bottom: 60px; }
     @media screen and (max-width: 1199px) {
-      .shop-grid .shop-grid-content .pattern-img {
+      .shop-grid .shop-grid-content .pattern-img, .shop-grid .shop-grid-content .icon-box {
         margin-bottom: 50px; } }
     @media screen and (max-width: 991px) {
-      .shop-grid .shop-grid-content .pattern-img {
+      .shop-grid .shop-grid-content .pattern-img, .shop-grid .shop-grid-content .icon-box {
         margin-bottom: 28px;
         width: 40%; } }
 
@@ -331,6 +331,9 @@ body {
     width: 30px; }
   .footer .made-by {
     color: #000000; }
+
+svg {
+  width: 100%; }
 
 .wood-container #wood-pattern #contour1, .wood-container #wood-pattern #SVGID_1_ {
   transition: r .5s; }
@@ -422,6 +425,9 @@ body {
   100% {
     opacity: 0; } }
 
+svg {
+  width: 100%; }
+
 .path .path1, .path2, .path3, .path4 {
   z-index: 1; }
 
@@ -500,6 +506,9 @@ body {
     opacity: .8; }
   100% {
     opacity: 0; } }
+
+svg {
+  width: 100%; }
 
 .shop-grid-content #end_7 {
   opacity: 0; }
