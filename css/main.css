@@ -332,41 +332,34 @@ body {
   .footer .made-by {
     color: #000000; }
 
-.wood-container:hover #wood-pattern {
-  cursor: pointer; }
-  .wood-container:hover #wood-pattern #contour1, .wood-container:hover #wood-pattern #SVGID_1_ {
-    animation: contour-anime 2.5s linear normal 1; }
+.wood-container #wood-pattern #contour1, .wood-container #wood-pattern #SVGID_1_ {
+  transition: r .5s; }
 
 .wood-container:hover #wood-pattern {
   cursor: pointer; }
   .wood-container:hover #wood-pattern #contour1, .wood-container:hover #wood-pattern #SVGID_1_ {
-    animation: contour-anime 2.5s linear normal 1; }
+    r: 60;
+    animation: contour-anime 2.5s linear infinite; }
 
 @keyframes contour-anime {
   0% {
     cx: 88.408;
-    cy: 87.957;
-    r: 84.784; }
-  20% {
+    cy: 87.957; }
+  10% {
     cx: 65;
-    cy: 90;
-    r: 60; }
-  35% {
-    cx: 80;
-    cy: 65;
-    r: 60; }
-  5% {
+    cy: 65; }
+  36% {
     cx: 110;
-    cy: 65;
-    r: 61; }
-  80% {
-    cx: 100;
-    cy: 107;
-    r: 60; }
+    cy: 70; }
+  75% {
+    cx: 67;
+    cy: 112; }
+  90% {
+    cx: 110;
+    cy: 112; }
   100% {
     cx: 88.408;
-    cy: 87.957;
-    r: 84.784; } }
+    cy: 87.957; } }
 
 .path {
   opacity: 1; }

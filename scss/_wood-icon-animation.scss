@@ -1,10 +1,9 @@
 // ======= wood-icon
 
-.wood-container:hover {
+.wood-container {
   #wood-pattern {
-    cursor: pointer;
     #contour1, #SVGID_1_ {
-      animation: contour-anime 2.5s linear normal 1;
+      transition: r .5s;
     }
   }
 }
@@ -13,43 +12,37 @@
   #wood-pattern {
     cursor: pointer;
     #contour1, #SVGID_1_ {
-      animation: contour-anime 2.5s linear normal 1;
+      r: 60;
+      animation: contour-anime 2.5s linear infinite;
+      //animation-direction: alternate;
     }
   }
 }
-
-
 
 @keyframes contour-anime {
   0% {
     cx: 88.408;
     cy: 87.957;
-    r: 84.784;
   }
-  20% {
+  10% {
     cx: 65;
-    cy: 90;
-    r: 60;
-  }
-  35% {
-    cx: 80;
     cy: 65;
-    r: 60;
   }
-  5% {
+  36% {
     cx: 110;
-    cy: 65;
-    r: 60;
+    cy: 70;
   }
-  80% {
-    cx: 100;
-    cy: 107;
-    r: 60;
+  75% {
+    cx: 67;
+    cy: 112;
+  }
+  90% {
+    cx: 110;
+    cy: 112;
   }
   100% {
     cx: 88.408;
     cy: 87.957;
-    r: 84.784;
   }
 }
 
