@@ -332,6 +332,44 @@ body {
   .footer .made-by {
     color: #000000; }
 
+.wood-container #wood-pattern #contour1, .wood-container #wood-pattern #SVGID_1_ {
+  transition: r .5s; }
+
+.wood-container:hover #wood-pattern {
+  cursor: pointer; }
+  .wood-container:hover #wood-pattern #contour1, .wood-container:hover #wood-pattern #SVGID_1_ {
+    r: 60;
+    animation: contour-anime 5s linear infinite; }
+
+@keyframes contour-anime {
+  0% {
+    cx: 88.408;
+    cy: 87.957; }
+  7% {
+    cx: 65;
+    cy: 65; }
+  20% {
+    cx: 110;
+    cy: 70; }
+  35% {
+    cx: 67;
+    cy: 112; }
+  50% {
+    cx: 110;
+    cy: 112; }
+  65% {
+    cx: 85;
+    cy: 65; }
+  80% {
+    cx: 85;
+    cy: 110; }
+  92% {
+    cx: 110;
+    cy: 85; }
+  100% {
+    cx: 88.408;
+    cy: 87.957; } }
+
 .path {
   opacity: 1; }
 
