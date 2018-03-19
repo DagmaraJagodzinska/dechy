@@ -176,7 +176,7 @@
 
         }
         @media screen and (max-width: $max-width-xxs) {
-            height: 400px;
+            height: 425px;
             padding: 20px 34px 40px 34px;
             .row {
                 margin-left: 0;
@@ -243,6 +243,7 @@
             text-transform: uppercase;
             margin: 46px 40px;
             font-size: 40px;
+            text-align: center;
 
             @media screen and (max-width: $max-width-st) {
                 margin: 36px 40px;
@@ -262,6 +263,7 @@
                 margin-bottom: -5px;
                 margin-top: -12px;
                 width: 40%;
+                text-align: center;
             }
             @media screen and (max-width: $max-width-xs) {
                 margin-bottom: 28px;
