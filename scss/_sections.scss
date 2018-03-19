@@ -259,6 +259,11 @@
                 margin-bottom: 50px;
             }
             @media screen and (max-width: $max-width-sm) {
+                margin-bottom: -5px;
+                margin-top: -12px;
+                width: 40%;
+            }
+            @media screen and (max-width: $max-width-xs) {
                 margin-bottom: 28px;
                 width: 40%;
             }
@@ -292,16 +297,16 @@
 
           @media screen and (min-width: $min-width-lg) {
             top: 50%;
-            left: 42%;
+            //left: 42%;
           }
 
           @media screen and (max-width: $max-width-st) {
             top: 46%;
-            left: 39%;
+            //left: 39%;
           }
           @media screen and (max-width: $max-width-sm) {
             top: 46%;
-            left: 37%;
+            //left: 37%;
           }
         }
 
