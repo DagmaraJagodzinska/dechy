@@ -216,7 +216,7 @@ body {
         padding: 20px 34px 40px 100px; } }
     @media screen and (max-width: 479px) {
       .shop .container {
-        height: 400px;
+        height: 425px;
         padding: 20px 34px 40px 34px; }
         .shop .container .row {
           margin-left: 0;
@@ -263,7 +263,8 @@ body {
   .shop-grid .shop-grid-content .shop-grid-title {
     text-transform: uppercase;
     margin: 46px 40px;
-    font-size: 40px; }
+    font-size: 40px;
+    text-align: center; }
     @media screen and (max-width: 1199px) {
       .shop-grid .shop-grid-content .shop-grid-title {
         margin: 36px 40px; } }
@@ -277,6 +278,12 @@ body {
       .shop-grid .shop-grid-content .pattern-img, .shop-grid .shop-grid-content .icon-box {
         margin-bottom: 50px; } }
     @media screen and (max-width: 991px) {
+      .shop-grid .shop-grid-content .pattern-img, .shop-grid .shop-grid-content .icon-box {
+        margin-bottom: -5px;
+        margin-top: -12px;
+        width: 40%;
+        text-align: center; } }
+    @media screen and (max-width: 767px) {
       .shop-grid .shop-grid-content .pattern-img, .shop-grid .shop-grid-content .icon-box {
         margin-bottom: 28px;
         width: 40%; } }
@@ -302,16 +309,13 @@ body {
     position: absolute; }
     @media screen and (min-width: 1200px) {
       .shop-grid .photo-container .image-on {
-        top: 50%;
-        left: 42%; } }
+        top: 50%; } }
     @media screen and (max-width: 1199px) {
       .shop-grid .photo-container .image-on {
-        top: 46%;
-        left: 39%; } }
+        top: 46%; } }
     @media screen and (max-width: 991px) {
       .shop-grid .photo-container .image-on {
-        top: 46%;
-        left: 37%; } }
+        top: 46%; } }
   .shop-grid .photo-container .shop-img:hover + .image-on {
     display: block; }
 
@@ -577,21 +581,81 @@ svg {
 
 .cookies-container {
   display: none;
-  position: absolute;
-  top: 0;
-  opacity: 0.5;
-  background-color: #373D3F;
-  color: red; }
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 220px;
+  background-color: #fff;
+  color: #000000;
+  text-align: right;
+  border: 3px solid #e8e8e8;
+  padding: 12px 15px;
+  z-index: 10; }
+  .cookies-container p {
+    color: #000000;
+    font-weight: 600;
+    text-align: center;
+    font-family: "Lato", sans-serif;
+    margin: auto; }
+  .cookies-container a {
+    color: #000000;
+    margin: 10px;
+    font-style: italic; }
+  .cookies-container button {
+    background-color: #989898;
+    color: #fff;
+    border: 3px solid white;
+    font-size: small;
+    font-weight: 600; }
+    .cookies-container button p {
+      font-family: "Lato", sans-serif;
+      margin: auto; }
+    .cookies-container button a {
+      color: #000000;
+      margin: 10px;
+      font-style: italic; }
+    .cookies-container button:hover {
+      cursor: pointer;
+      background-color: #fff;
+      border: 3px solid #e8e8e8;
+      color: #000000; }
+  @media screen and (max-width: 767px) {
+    .cookies-container {
+      width: 100vw; } }
 
 .no-js-cookies-container {
-  position: absolute;
-  top: 0;
-  opacity: 0.5;
-  background-color: #373D3F;
-  color: red; }
+  display: none;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 220px;
+  background-color: #fff;
+  color: #000000;
+  text-align: right;
+  border: 3px solid #e8e8e8;
+  padding: 12px 15px;
+  z-index: 10; }
   .no-js-cookies-container .no-js-cookies-input {
     display: none; }
     .no-js-cookies-container .no-js-cookies-input:checked ~ .no-js-cookies-info {
       display: none; }
   .no-js-cookies-container .no-js-cookies-info {
     display: block; }
+  .no-js-cookies-container .no-js-cookies-label {
+    background-color: #989898;
+    color: #fff;
+    border: 3px solid transparent;
+    font-size: small;
+    font-weight: 600; }
+    .no-js-cookies-container .no-js-cookies-label p {
+      font-family: "Lato", sans-serif;
+      margin: auto; }
+    .no-js-cookies-container .no-js-cookies-label a {
+      color: #000000;
+      margin: 10px;
+      font-style: italic; }
+    .no-js-cookies-container .no-js-cookies-label:hover {
+      cursor: pointer;
+      background-color: #fff;
+      border: 3px solid #e8e8e8;
+      color: #000000; }
