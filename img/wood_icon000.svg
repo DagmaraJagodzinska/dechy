@@ -2,10 +2,10 @@
 	 width="176px" height="176px" viewBox="0 0 176 176" enable-background="new 0 0 176 176" xml:space="preserve">
 <g>
 	<defs>
-		<circle id="SVGID_1_" cx="88.408" cy="87.957" r="84.784" stroke-width="5" stroke="#eee"/>
+		<circle id="clip-circle" cx="88.408" cy="87.957" r="84.784" stroke-width="5" stroke="#eee"/>
 	</defs>
 	<clipPath id="SVGID_2_">
-		<use xlink:href="#SVGID_1_"  overflow="visible"/>
+		<use xlink:href="#clip-circle"  overflow="visible"/>
 	</clipPath>
 
 	<path clip-path="url(#SVGID_2_)" id="jar-1" d="M124.816,148.057L124.816,148.057c-10.918,0-14.607-25.896-15.106-35.873
