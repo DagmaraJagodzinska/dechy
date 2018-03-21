@@ -5,8 +5,8 @@ svg {
 
 .wood-container {
   #wood-pattern {
-    #contour1, #SVGID_1_ {
-      transition: r .5s;
+    #contour1, #clip-circle {
+      //transition: r .5s;
     }
   }
 }
@@ -14,9 +14,9 @@ svg {
 .wood-container:hover {
   #wood-pattern {
     cursor: pointer;
-    #contour1, #SVGID_1_ {
-      r: 60;
-      animation: contour-anime 5s linear infinite;
+    #contour1, #clip-circle {
+      //r: 60;
+      //animation: contour-anime 5s linear infinite;
     }
   }
 }

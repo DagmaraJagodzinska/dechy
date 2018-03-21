@@ -23,6 +23,130 @@ $(document).ready(function () {
         pot.parent().addClass('pattern-img').find('img').css('display', 'none');
     });
 
+
+    var animeClipOn = new TimelineLite();
+    var animeClipOut = new TimelineLite();
+    var animeContourOn = new TimelineLite();
+    var animeContourOut = new TimelineLite();
+
+
+    woodContainer.on('mouseover', function () {
+        console.log("on");
+        animeClipOn.to('#clip-circle', 1,
+            {
+                attr: {
+                    cx: 65,
+                    cy: 65,
+                    r: 60,
+                    stroke: '#a2ab8a'
+                },
+                ease: Back.easeOut
+            }
+        )
+            .to('#clip-circle', 1,
+                {
+                    attr: {
+                        cx: 110,
+                        cy: 70,
+                        r: 60,
+                        stroke: '#a2ab8a'
+                    },
+                    ease: Power2.easeOut
+                }, "-=.5"
+            )
+            .to('#clip-circle', 1,
+                {
+                    attr: {
+                        cx: 90,
+                        cy: 110,
+                        r: 60,
+                        stroke: '#a2ab8a'
+                    },
+                    ease: Power2.easeOut
+                }, "-=.5"
+            ).to('#clip-circle', 1,
+            {
+                attr: {
+                    cx: 65,
+                    cy: 65,
+                    r: 60
+                },
+                ease: Back.easeOut
+            }
+        );
+
+        animeContourOn.to('#contour1', 1,
+            {
+                attr: {
+                    cx: 65,
+                    cy: 65,
+                    r: 60,
+                    stroke: '#a2ab8a'
+                },
+                ease: Back.easeOut
+            }
+        )
+            .to('#contour1', 1,
+                {
+                    attr: {
+                        cx: 110,
+                        cy: 70,
+                        r: 60,
+                        stroke: '#a2ab8a'
+                    },
+                    ease: Power2.easeOut
+                }, "-=.5"
+            )
+            .to('#contour1', 1,
+                {
+                    attr: {
+                        cx: 90,
+                        cy: 110,
+                        r: 60,
+                        stroke: '#a2ab8a'
+                    },
+                    ease: Power2.easeOut
+                }, "-=.5"
+            ).to('#contour1', 1,
+            {
+                attr: {
+                    cx: 65,
+                    cy: 65,
+                    r: 60
+                },
+                ease: Back.easeOut
+            }
+        );
+
+    });
+
+    woodContainer.on('mouseout', function () {
+        TweenMax.killAll();
+        console.log("OUT");
+        animeClipOut.to('#clip-circle', .7,
+            {
+                attr: {
+                    cx: 88.408,
+                    cy: 87.957,
+                    r: 84.784
+                },
+                ease: Power2.easeInOut
+            }
+        );
+
+        animeContourOut.to('#contour1', .7,
+            {
+                attr: {
+                    cx: 88.408,
+                    cy: 87.957,
+                    r: 84.784,
+                    stroke: '#000000'
+                },
+                ease: Power2.easeInOut
+            }
+        );
+    });
+
     $(window).scroll(function () {
         var marginPoint = 100;
 
