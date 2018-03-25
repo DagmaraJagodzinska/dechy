@@ -859,23 +859,23 @@ svg {
       width: 100vw; } }
 
 .no-js-cookies-container {
-  display: none;
   position: fixed;
   bottom: 0;
   right: 0;
-  width: 220px;
-  background-color: #fff;
-  color: #000000;
   text-align: right;
-  border: 3px solid #e8e8e8;
-  padding: 12px 15px;
   z-index: 10; }
   .no-js-cookies-container .no-js-cookies-input {
     display: none; }
     .no-js-cookies-container .no-js-cookies-input:checked ~ .no-js-cookies-info {
       display: none; }
   .no-js-cookies-container .no-js-cookies-info {
-    display: block; }
+    display: block;
+    width: 220px;
+    background-color: #fff;
+    color: #000000;
+    text-align: right;
+    border: 3px solid #e8e8e8;
+    padding: 12px 15px; }
   .no-js-cookies-container .no-js-cookies-label {
     background-color: #989898;
     color: #fff;

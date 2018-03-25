@@ -55,16 +55,10 @@
 }
 
 .no-js-cookies-container {
-  display: none; // to musi zostać
   position: fixed;
   bottom:0;
   right: 0;
-  width: 220px;
-  background-color: $white;
-  color: $black;
   text-align: right;
-  border: 3px solid $light-grey;
-  padding: 12px 15px;
   z-index: 10;
 
   .no-js-cookies-input { //to wszystko musi zostać
@@ -75,6 +69,12 @@
   }
   .no-js-cookies-info {
     display: block;
+    width: 220px;
+    background-color: $white;
+    color: $black;
+    text-align: right;
+    border: 3px solid $light-grey;
+    padding: 12px 15px;
   }
 
   .no-js-cookies-label {
