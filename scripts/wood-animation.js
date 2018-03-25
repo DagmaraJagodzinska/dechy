@@ -19,7 +19,7 @@ $(document).ready(function () {
         wood.parent().addClass('pattern-img').find('img').css('display', 'none');
     });
 
-    pot.load('../img/pot_icon1.svg', function () {
+    pot.load('../img/pot_icon2.svg', function () {
         pot.parent().addClass('pattern-img').find('img').css('display', 'none');
     });
 
@@ -68,7 +68,7 @@ $(document).ready(function () {
             {
                 attr: {
                     cx: 65,
-                    cy: 65,
+                    cy: 68,
                     r: 60
                 },
                 ease: Back.easeOut
@@ -111,7 +111,7 @@ $(document).ready(function () {
             {
                 attr: {
                     cx: 65,
-                    cy: 65,
+                    cy: 68,
                     r: 60
                 },
                 ease: Back.easeOut

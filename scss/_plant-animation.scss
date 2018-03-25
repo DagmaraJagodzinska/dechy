@@ -32,6 +32,17 @@ svg {
   }
 }
 
+//.shop-grid-content {
+//  #contur path {
+//    fill: $black;
+//    transition: fill .7s;
+//  }
+//  &:hover #contur path {
+//    fill: $dark-green;
+//  }
+//}
+
+
 .shop-grid-content:hover #weed_3 {
   path {
     animation-delay: .5s;
